@@ -1,6 +1,7 @@
 # 开发环境以及工具配置
 
-[TOC]
+* [github-auto-commit](#github-auto-commit)
+* [git代理设置](#git代理设置)
 
 ## github-auto-commit
 `在linux服务器上面配置git并且每日提交, 让github绿油油`
