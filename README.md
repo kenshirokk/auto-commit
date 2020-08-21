@@ -4,6 +4,7 @@
 * [git代理设置](#git_proxy)
 * [on_my_zsh](#on_my_zsh)
 * [修改时区, 系统时间](#system_local_time)
+* [Linux防火墙](#firewall)
 
 ## github-auto-commit
 `在linux服务器上面配置git并且每日提交, 让github绿油油`
