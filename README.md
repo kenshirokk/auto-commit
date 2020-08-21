@@ -1,5 +1,7 @@
 # 开发环境以及工具配置
 
+[TOC]
+
 ## github-auto-commit
 `在linux服务器上面配置git并且每日提交, 让github绿油油`
 
@@ -25,3 +27,9 @@ crontab -e
 0 6 * * * sh /root/github/autocommit.sh
 分(0-59) 时(0-23) 几号(1-31) 月份(1-12) 星期几(0-6)//0代表周日
 ```
+## git代理设置
+`git global 配置文件位置: C:\Users\用户名\.gitconfig`
+git config --global http.proxy 'http://127.0.0.1:1080'
+git config --global https.proxy 'http://127.0.0.1:1080'
+git config --global http.proxy 'socks5://127.0.0.1:1080'
+git config --global https.proxy 'socks5://127.0.0.1:1080'
