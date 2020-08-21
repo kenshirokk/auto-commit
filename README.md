@@ -60,3 +60,21 @@ rm -rf /etc/localtime
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 ntpdate ntp1.aliyun.com
 ```
+
+## firewall
+```bash
+# 开放端口
+firewall-cmd --zone=public --add-port=80/tcp --permanent
+# 关闭端口
+firewall-cmd --zone=public --remove-port=80/tcp --permanent
+# 刷新
+firewall-cmd --reload
+# 列出已配置端口
+firewall-cmd --zone=public --list-ports
+# 开启
+systemctl start firewalld
+# 停止
+systemctl stop firewalld
+# 状态
+systemctl status firewalld
+```
