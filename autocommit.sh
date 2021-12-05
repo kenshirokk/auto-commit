@@ -1,7 +1,7 @@
 #! /bin/sh
 cd /root/github
-git pull
+/usr/local/bin/git pull
 date >> auto-commit.txt
-git add *
-git commit -m 'auto'
-git push
+/usr/local/bin/git add *
+/usr/local/bin/git commit -m 'auto'
+/usr/local/bin/git push
